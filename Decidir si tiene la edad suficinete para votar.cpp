@@ -28,7 +28,6 @@ int main()
 	}
 	 
 	}
-		P=P/E;
 	for (n=0; n<E; n++){
 		if (v[n] >=18);
 		cont++;
