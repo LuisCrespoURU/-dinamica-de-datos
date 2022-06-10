@@ -9,7 +9,7 @@ int main()
 	scanf("%d", &E);
      	for(int i=1;i<=E;i++){
      		
-	printf("Ingresa el año de nacimiento: ");
+	printf("Ingresa el aÃ±o de nacimiento: ");
 	scanf("%d", &a_nacimiento);
 	
 	v= (float *) malloc (E*sizeof(float));
@@ -28,6 +28,7 @@ int main()
 	}
 	 
 	}
+		P=P/E;
 	for (n=0; n<E; n++){
 		if (v[n] >=18);
 		cont++;
